@@ -51,7 +51,7 @@ def show_frame():
         canvas.itemconfig(oval_red, fill="white")
         canvas.itemconfig(oval_green, fill="green")
         if time.time() > end_time:
-            MsgBox = mb.showinfo('Welcome', 'You can come in !!')
+            MsgBox = mb.showinfo('Welcome', 'You can come in :)))')
             start=True
             end_time=0
 
